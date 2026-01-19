@@ -1,5 +1,5 @@
 const displayBee = document.querySelector("#bee")
-const displayBlank = document.querySelector("#blank")
+const displayHola = document.querySelector("#hola")
 
 displayBee.textContent = "Este texto ha sido modificado por javascript"
 
@@ -9,5 +9,5 @@ function elegir(){
     const rng = Math.floor(Math.random() * bienvenida.length)
     const eleccionCiudad = bienvenida[rng]
 
-    displayBlank.textContent = eleccionCiudad
+    displayHola.textContent = eleccionCiudad
 }
