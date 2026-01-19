@@ -63,3 +63,11 @@ En este snippet lo que se esta porgramado es:
 
 1. Declarar dos variables "const" llamadas nombre y edad.
 2. Cuyos valores estan guardados en el navegador cuyas claves son, **'nombre'** y **'edad'** respectivamente.
+
+## Practica pandoc:
+
+El comando que he utilizado para crear ollama-guia.html ha sido:
+
+```bash
+pandoc ollama-guia.md -o ollama-guia.html --standalone
+```
